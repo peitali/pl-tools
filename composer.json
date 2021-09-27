@@ -1,0 +1,14 @@
+{
+  "name": "peitali/tools",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "peitali",
+      "email": "393458506@qq.com"
+    }
+  ],
+  "require": {
+  }
+}
