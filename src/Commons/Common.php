@@ -1,14 +1,19 @@
 <?php
 
 namespace PlTools\Commons;
-/**
- * Author: peitali
- * Datetime: 2021/9/27 16:07
- */
+
 class Common
 {
-    public function test()
+    /**
+     * 条件验证
+     * @param bool $condition 验证条件
+     * @param string $err 失败后信息
+     * @return bool
+     * @throws \Exception
+     */
+    public function required(bool $condition, string $err)
     {
-        return 'test';
+        if (!$condition) throw new \Exception($err);
+        return true;
     }
 }
